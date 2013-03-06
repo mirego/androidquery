@@ -1414,7 +1414,7 @@ public abstract class AbstractAjaxCallback<T, K> implements Runnable{
 	
 	
 	private static DefaultHttpClient client;
-	private static DefaultHttpClient getClient(){
+	protected DefaultHttpClient getClient(){
 		
 		if(client == null || !REUSE_CLIENT){
 		
