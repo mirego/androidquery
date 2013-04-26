@@ -67,8 +67,8 @@ public class BitmapAjaxCallback extends AbstractAjaxCallback<Bitmap, BitmapAjaxC
 	private static int SMALL_MAX = 20;
 	private static int BIG_MAX = 20;
 	private static int SMALL_PIXELS = 50 * 50;
-	private static int BIG_PIXELS = 400 * 400;
-	private static int BIG_TPIXELS = 1000000;
+	private static int BIG_PIXELS = 500000;
+	private static int BIG_TPIXELS = 2000000;
 	
 	private static boolean DELAY_WRITE = false;
 	
