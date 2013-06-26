@@ -549,8 +549,7 @@ public abstract class AbstractAjaxCallback<T, K> implements Runnable{
 		try{
 			synchronized(this){
 				blocked = true;
-				//wait at most the network timeout plus 5 seconds, this guarantee thread will never be blocked forever
-				this.wait(NET_TIMEOUT + 5000);
+				this.wait();
 			}
 		}catch(Exception e){			
 		}
